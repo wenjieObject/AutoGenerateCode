@@ -1,0 +1,2 @@
+# AutoGenerateCode
+AutoGenerateCode with netcore
