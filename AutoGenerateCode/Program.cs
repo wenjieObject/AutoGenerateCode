@@ -8,6 +8,7 @@ namespace AutoGenerateCode
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            new Program().TestGenerateEntitiesForSqlServer();
         }
 
         public void TestGenerateEntitiesForSqlServer()
@@ -26,12 +27,11 @@ namespace AutoGenerateCode
                 options.ModelsNamespace = "Models";
                 options.IRepositoriesNamespace = "IRepository";
                 options.RepositoriesNamespace = "Repository";
-                options.OutputPath = "D:\\VSCode\\AutoGenerateCode";
+                options.OutputPath = "D:\\VSCode\\AutoGenerateCode\\AutoGenerateCode";
             });
             services.AddOptions();
             return AspectCoreContainer.BuildServiceProvider(services); //接入AspectCore.Injector
 
-            return null;
         }
 
         /// <summary>
