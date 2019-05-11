@@ -4102,11 +4102,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VsCode\\AutoGenerateCode\\AutoGenerateCode\\AutoGenerateCode\\AutoGenerateCode.csproj",
+      "projectUniqueName": "C:\\VsCode\\AutoGenerateCode\\AutoGenerateCode\\AutoGenerateCode.csproj",
       "projectName": "AutoGenerateCode",
-      "projectPath": "C:\\VsCode\\AutoGenerateCode\\AutoGenerateCode\\AutoGenerateCode\\AutoGenerateCode.csproj",
+      "projectPath": "C:\\VsCode\\AutoGenerateCode\\AutoGenerateCode\\AutoGenerateCode.csproj",
       "packagesPath": "C:\\Users\\jwj20\\.nuget\\packages\\",
-      "outputPath": "C:\\VsCode\\AutoGenerateCode\\AutoGenerateCode\\AutoGenerateCode\\obj\\",
+      "outputPath": "C:\\VsCode\\AutoGenerateCode\\AutoGenerateCode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

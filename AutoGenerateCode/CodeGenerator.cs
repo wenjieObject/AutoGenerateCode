@@ -109,7 +109,7 @@ namespace AutoGenerateCode
             var currentAssembly = Assembly.GetExecutingAssembly();
             var content = string.Empty;
             //获取不到txt文件流？ D:\VSCode\Czar.Cms\Czar.Cms.DataBase\CodeTemplate\ModelTemplate.txt
-            string name = $"C:\\VsCode\\AutoGenerateCode\\AutoGenerateCode\\AutoGenerateCode\\CodeTemplate\\{templateName}";
+            string name = $"{currentAssembly}\\CodeTemplate\\{templateName}";
             StreamReader sr = null;
             try
             {
