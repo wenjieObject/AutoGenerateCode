@@ -3,7 +3,7 @@ using {ModelsNamespace};
 
 namespace {IRepositoriesNamespace}
 {
-    public interface I{ModelTypeName}Repository:IRepository<{ModelTypeName}, {KeyTypeName}>
+    public interface I{ModelTypeName}Repository:IBaseRepository<{ModelTypeName}, {KeyTypeName}>
     {
     }
 }

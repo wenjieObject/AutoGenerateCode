@@ -14,7 +14,7 @@ using System.Web;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace AutoGenerateCode
+namespace Common
 {
     public static class ObjectExtension
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutoGenerateCode
+namespace Common
 {
     public interface ISqlServerDbContext : IDbContextCore
     {

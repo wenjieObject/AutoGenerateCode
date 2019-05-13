@@ -6,7 +6,7 @@ using AspectCore.Extensions.DependencyInjection;
 using AspectCore.Injector;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AutoGenerateCode
+namespace Common
 {
 
     public class AspectCoreContainer

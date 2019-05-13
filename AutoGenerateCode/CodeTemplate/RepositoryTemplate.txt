@@ -1,6 +1,8 @@
 ﻿using System;
 using {IRepositoriesNamespace};
 using {ModelsNamespace};
+using Models;
+
 
 namespace {RepositoriesNamespace}
 {

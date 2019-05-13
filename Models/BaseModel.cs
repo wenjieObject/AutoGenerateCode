@@ -13,6 +13,6 @@ namespace Models
     {
         public abstract TKey Id { get; set; }
 
-        public virtual string UniqueId { get; set; }
+        //public virtual string UniqueId { get; set; }
     }
 }

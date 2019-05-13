@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Linq;
 
-namespace AutoGenerateCode
+namespace Common
 {
     public static class EntityFrameworkCoreExtensions
     {

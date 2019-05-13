@@ -30,6 +30,242 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\VSCode\\Demo\\AutoGenerateCode\\Common\\Common.csproj": {
+                "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Common\\Common.csproj"
+              },
+              "D:\\VSCode\\Demo\\AutoGenerateCode\\IRepository\\IRepository.csproj": {
+                "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\IRepository\\IRepository.csproj"
+              },
+              "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj": {
+                "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj"
+              },
+              "D:\\VSCode\\Demo\\AutoGenerateCode\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AspectCore.Abstractions": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "AspectCore.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "StackExchange.Redis.Extensions.Core": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\VSCode\\Demo\\AutoGenerateCode\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCode\\Demo\\AutoGenerateCode\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\B15228\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\B15228\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj": {
+                "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AspectCore.Abstractions": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "AspectCore.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "StackExchange.Redis.Extensions.Core": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\VSCode\\Demo\\AutoGenerateCode\\IRepository\\IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCode\\Demo\\AutoGenerateCode\\IRepository\\IRepository.csproj",
+        "projectName": "IRepository",
+        "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\IRepository\\IRepository.csproj",
+        "packagesPath": "C:\\Users\\B15228\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\B15228\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj": {
+                "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\B15228\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\B15228\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -46,7 +282,74 @@
               "target": "Package",
               "version": "[2.2.4, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\VSCode\\Demo\\AutoGenerateCode\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCode\\Demo\\AutoGenerateCode\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\B15228\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\B15228\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\VSCode\\Demo\\AutoGenerateCode\\Common\\Common.csproj": {
+                "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Common\\Common.csproj"
+              },
+              "D:\\VSCode\\Demo\\AutoGenerateCode\\IRepository\\IRepository.csproj": {
+                "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\IRepository\\IRepository.csproj"
+              },
+              "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj": {
+                "projectPath": "D:\\VSCode\\Demo\\AutoGenerateCode\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper.SimpleCRUD": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
